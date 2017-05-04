@@ -55,4 +55,19 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginTop="23dp" />
 
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/darker_gray"
+        android:onClick="shareClick"
+        android:text="@string/shareButton_label"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/reset_button"
+        app:layout_constraintRight_toRightOf="@+id/reset_button" />
+
 </android.support.constraint.ConstraintLayout>
