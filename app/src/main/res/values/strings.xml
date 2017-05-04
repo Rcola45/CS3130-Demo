@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">CSCI 3130</string>
-    <string name="button_label">Submit</string>
+    <string name="submitButton_label">Submit</string>
+    <string name="resetButton_label">Reset</string>
 </resources>

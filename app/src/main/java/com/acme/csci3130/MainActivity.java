@@ -26,4 +26,9 @@ public class MainActivity extends Activity {
     public void changeLabel(View v){
         display_text.setText(input_text.getEditableText().toString());
     }
+
+    public void resetText(View v){
+        display_text.setText("");
+        input_text.setText("");
+    }
 }

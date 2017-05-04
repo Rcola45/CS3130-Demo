@@ -23,11 +23,25 @@
         android:layout_height="wrap_content"
         android:background="@android:color/darker_gray"
         android:onClick="changeLabel"
-        android:text="@string/button_label"
+        android:text="@string/submitButton_label"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="82dp"
         app:layout_constraintLeft_toRightOf="@+id/inputText_textbox" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="7dp"
+        android:background="@android:color/darker_gray"
+        android:onClick="resetText"
+        android:text="@string/resetButton_label"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/submitText_button"
+        app:layout_constraintRight_toRightOf="@+id/submitText_button"
+        app:layout_constraintTop_toBottomOf="@+id/submitText_button" />
 
     <EditText
         android:id="@+id/inputText_textbox"
@@ -39,6 +53,6 @@
         app:layout_constraintRight_toLeftOf="@+id/submitText_button"
         app:layout_constraintTop_toTopOf="@+id/submitText_button"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="5dp" />
+        android:layout_marginTop="23dp" />
 
 </android.support.constraint.ConstraintLayout>
